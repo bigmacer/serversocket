@@ -1,1 +1,0 @@
-{"id":"ab5baebe-eb4d-4483-86d7-7b14003b2c9c","space":46779,"runtime":"nodejs14.x","name":"socketserver","path":"88lpde","project":"a05h939d","account":"144798365827","region":"eu-central-1","deps":["express@^4.18.2","socket.io@^4.5.4"],"envs":null,"public":true,"log_level":"off","cron":""}
