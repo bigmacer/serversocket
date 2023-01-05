@@ -13,10 +13,12 @@ io.on("connection", (socket) => {
   console.log("a user connected");
   socket.on("receive", (msg) => {
     console.log("receive message: " + msg);
-    io.emit('response', msg);
+    io.emit("response", msg);
   });
 });
 
-server.listen(3000, () => {
-  console.log("listening on *:3000");
-});
+(async () => {
+  server.listen(3000, () => {
+    console.log("listening on *:3000");
+  });
+})();
